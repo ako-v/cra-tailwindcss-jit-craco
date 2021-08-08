@@ -29,6 +29,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run servebuild`
+After you built your app using `npm run build` you can serve the built app using `npm run servebuild`. if you don't need it, you can safely remove the file and also remove the `"servebuild": "node server.js"` script from package.json file.
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
