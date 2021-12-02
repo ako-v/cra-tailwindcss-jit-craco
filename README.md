@@ -1,3 +1,7 @@
+# For those who are on windows:
+it may complain that `TAILWIND_MODE=watch craco start`, if this happens, just install `cross-env` and change the `start` script in package.json to this:
+"start": "cross-env TAILWIND_MODE=watch craco start"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
